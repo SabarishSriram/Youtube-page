@@ -1,0 +1,43 @@
+
+    .thumbnail1{
+        width: 300px;
+        display:inline-block;
+
+       
+    }
+    
+    .video_1{
+        width: 300px;
+        display: inline-block;
+
+        
+        margin-right: 15px;
+        margin-top:15px;
+        
+    }
+    .profile_picture{
+        width:40px;
+        border-radius: 50px;
+        margin-top: 12px;
+        
+    }
+    .video_title{
+        margin-top: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
+        width:250px;
+        
+        
+    }
+    
+    .video_author{
+        font-size:14px;
+        color: #606067;
+        margin-bottom: 4px;
+    }
+    .video-info-grid{
+        display:grid;
+        grid-template-columns: 50px 1fr;
+    }
+    

@@ -11,9 +11,7 @@
     border-bottom: rgb(228,228,228);
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    z-index: 1;
-    
-    
+    z-index: 1; 
 }
 .left-section{
     
@@ -44,8 +42,14 @@
     margin-right:24px;
     
 }
+.hamburger-menu{
+    cursor: pointer;
+}
 .youtube-logo{
     height: 20px;
+}
+.youtube-logo{
+    cursor: pointer;
 }
 .search-button{
     width:64px;
@@ -56,8 +60,10 @@
     background-color: #f7f7f7;
     border-top-right-radius:3px;
     border-bottom-right-radius:3px;
-    margin-left: -1px;
-    
+    margin-left: -1px;  
+}
+.search-button{
+    cursor: pointer;
 }
 .voice-button{
     height:40px;
@@ -66,7 +72,9 @@
     border-style:none;
     border-radius: 6pc;
     margin-left: 10px;
- 
+}
+.voice-button{
+    cursor: pointer;
 }
 .search-bar{
     height: 36px;
@@ -118,18 +126,50 @@
     width:72px;
     bottom:0px;
     background-color: white;
+    z-index: 3;
+    padding-top: 5px;
+}
+.home{
+    height:74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    
+
+}
+.home:hover{
+    background-color: rgb(222, 222, 222);
+    cursor: pointer;
+}
+.home-image{
+    height:24px;
+    margin-bottom: 4px;
+
+    
 }
 .notifications-div{
     position: relative;
+
 }
 .notification-badge{
     position:absolute;
-    background-color: rgb(214, 1, 1);
     color: white;
-    top:0px;
-    right:0px;
-    font-family: roboto,arial;
-    font-size: 10px;
-    border-radius:6pc ;
-    padding:2px;
+    background-color: rgb(200,0,0);
+    top:11px;
+    right:76px;
+    font-family: roboto, arial;
+    font-size:10px;
+    padding-left:5px;
+    padding-bottom: 2px;
+    padding-top:2px;
+    padding-right:5px;
+    border-radius: 10px;
 }
+.home div{
+    font-family:roboto,arial;
+    font-size:10px;
+    
+    
+}
+

@@ -1,6 +1,6 @@
 
     .thumbnail1{
-        width: 300px;
+        width: 290px;
         display:inline-block;
 
        
@@ -9,9 +9,9 @@
     .video_1{
         width: 300px;
         display: inline-block;
-
+        position:relative;
         
-        margin-right: 15px;
+        margin-right: 1px;
         margin-top:15px;
         
     }
@@ -25,19 +25,38 @@
         margin-top: 12px;
         font-weight: 500;
         line-height: 20px;
-        margin-bottom: 12px;
+        margin-bottom: 9px;
         width:250px;
+        font-size: 14px;
         
         
     }
     
     .video_author{
-        font-size:14px;
+        font-size:12px;
         color: #606067;
         margin-bottom: 4px;
     }
     .video-info-grid{
         display:grid;
         grid-template-columns: 50px 1fr;
+    }
+    .video-time{
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom:110px;
+        right:15px;
+        font-family: roboto,arial;
+        font-size: 12px;
+        font-weight: 500;
+        padding-right: 4px;
+        padding-left:4px;
+        padding-top:4px;
+        padding-bottom: 4px;
+        border-radius: 4px;
+    }
+    .layout{
+        z-index: 0;
     }
     

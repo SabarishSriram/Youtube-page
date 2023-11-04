@@ -11,6 +11,7 @@
     border-bottom: rgb(228,228,228);
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    z-index: 1;
     
     
 }
@@ -109,4 +110,26 @@
 .channel-pfp{
     height: 32px;
     border-radius: 16px;
+}
+.sidebar{
+    position: fixed;
+    top:55px;
+    left:0px;
+    width:72px;
+    bottom:0px;
+    background-color: white;
+}
+.notifications-div{
+    position: relative;
+}
+.notification-badge{
+    position:absolute;
+    background-color: rgb(214, 1, 1);
+    color: white;
+    top:0px;
+    right:0px;
+    font-family: roboto,arial;
+    font-size: 10px;
+    border-radius:6pc ;
+    padding:2px;
 }
